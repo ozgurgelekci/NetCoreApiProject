@@ -1,5 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using NetCoreApiProject.Core.Repositories;
 using NetCoreApiProject.Core.UnitOfWorks;
 using NetCoreApiProject.Data.DbContexts;

@@ -6,3 +6,4 @@ C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Core\obj\Debug\netcoreapp3.1\NetCoreApiProject.Core.csproj.CoreCompileInputs.cache
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Core\obj\Debug\netcoreapp3.1\NetCoreApiProject.Core.dll
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Core\obj\Debug\netcoreapp3.1\NetCoreApiProject.Core.pdb
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Core\obj\Debug\netcoreapp3.1\NetCoreApiProject.Core.csprojAssemblyReference.cache

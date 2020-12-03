@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Reflection.Metadata;
-using System.Reflection.PortableExecutable;
-using System.Text;
-using NetCoreApiProject.Core.Entities.Abstract;
+﻿using NetCoreApiProject.Core.Entities.Abstract;
 
 namespace NetCoreApiProject.Core.Entities.Concrete
 {

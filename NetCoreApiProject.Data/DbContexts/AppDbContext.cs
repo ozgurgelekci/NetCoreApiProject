@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NetCoreApiProject.Core.Entities.Concrete;
 using NetCoreApiProject.Data.EntityConfiguration;
+using NetCoreApiProject.Data.Seeds;
 
 namespace NetCoreApiProject.Data.DbContexts
 {
@@ -11,7 +12,6 @@ namespace NetCoreApiProject.Data.DbContexts
 
         }
 
-
         private DbSet<Category> Categories { get; set; }
 
         private DbSet<Product> Products { get; set; }
@@ -20,6 +20,9 @@ namespace NetCoreApiProject.Data.DbContexts
         {
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+
+            modelBuilder.ApplyConfiguration(new CategorySeed(new int[] { 1, 2 }));
+            modelBuilder.ApplyConfiguration(new ProductSeed(new int[] { 1, 2 }));
         }
     }
 }

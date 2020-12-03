@@ -2,21 +2,36 @@
 using System.Threading.Tasks;
 using NetCoreApiProject.Core.Repositories;
 using NetCoreApiProject.Core.UnitOfWorks;
+using NetCoreApiProject.Data.DbContexts;
+using NetCoreApiProject.Data.Repositories;
 
 namespace NetCoreApiProject.Data.UnitOfWorks
 {
     public class UnitOfWork : IUnitOfWork
     {
-        public IProductRepository Product { get; }
-        public ICategoryRepository Category { get; }
-        public Task CommitAsync()
+        private readonly AppDbContext _context;
+
+        private ProductRepository _productRepository;
+        private CategoryRepository _categoryRepository;
+
+
+        public IProductRepository Product => _productRepository ??= new ProductRepository(_context);
+
+        public ICategoryRepository Category => _categoryRepository ??= new CategoryRepository(_context);
+
+        public UnitOfWork(AppDbContext context)
         {
-            throw new NotImplementedException();
+            _context = context;
+        }
+
+        public async Task CommitAsync()
+        {
+            await _context.SaveChangesAsync();
         }
 
         public void Commit()
         {
-            throw new NotImplementedException();
+            _context.SaveChanges();
         }
     }
 }

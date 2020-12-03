@@ -12,7 +12,7 @@ namespace NetCoreApiProject.Core.Repositories
 
         Task<IEnumerable<TEntity>> GetAllAsync();
 
-        Task<IEnumerable<TEntity>> Find(Expression<Func<TEntity, bool>> predicate);
+        IEnumerable<TEntity> Where(Expression<Func<TEntity, bool>> predicate);
 
         Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate);
 

@@ -12,3 +12,4 @@ C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\bin\Debug\netcoreapp3.1\NetCoreApiProject.Data.runtimeconfig.json
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\bin\Debug\netcoreapp3.1\NetCoreApiProject.Data.runtimeconfig.dev.json
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.genruntimeconfig.cache
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.csproj.CoreCompileInputs.cache

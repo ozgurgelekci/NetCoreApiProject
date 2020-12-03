@@ -1,0 +1,12 @@
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\bin\Debug\netcoreapp3.1\NetCoreApiProject.Data.deps.json
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\bin\Debug\netcoreapp3.1\NetCoreApiProject.Data.dll
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\bin\Debug\netcoreapp3.1\NetCoreApiProject.Data.pdb
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.csprojAssemblyReference.cache
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.AssemblyInfoInputs.cache
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.AssemblyInfo.cs
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.csproj.CoreCompileInputs.cache
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.dll
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.pdb
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\bin\Debug\netcoreapp3.1\NetCoreApiProject.Core.dll
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\bin\Debug\netcoreapp3.1\NetCoreApiProject.Core.pdb
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.Data\obj\Debug\netcoreapp3.1\NetCoreApiProject.Data.csproj.CopyComplete

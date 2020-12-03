@@ -1,0 +1,175 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Service\\NetCoreApiProject.Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Core\\NetCoreApiProject.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Core\\NetCoreApiProject.Core.csproj",
+        "projectName": "NetCoreApiProject.Core",
+        "projectPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Core\\NetCoreApiProject.Core.csproj",
+        "packagesPath": "C:\\Users\\ozgur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ozgur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Data\\NetCoreApiProject.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Data\\NetCoreApiProject.Data.csproj",
+        "projectName": "NetCoreApiProject.Data",
+        "projectPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Data\\NetCoreApiProject.Data.csproj",
+        "packagesPath": "C:\\Users\\ozgur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ozgur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Core\\NetCoreApiProject.Core.csproj": {
+                "projectPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Core\\NetCoreApiProject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Service\\NetCoreApiProject.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Service\\NetCoreApiProject.Service.csproj",
+        "projectName": "NetCoreApiProject.Service",
+        "projectPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Service\\NetCoreApiProject.Service.csproj",
+        "packagesPath": "C:\\Users\\ozgur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ozgur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Core\\NetCoreApiProject.Core.csproj": {
+                "projectPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Core\\NetCoreApiProject.Core.csproj"
+              },
+              "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Data\\NetCoreApiProject.Data.csproj": {
+                "projectPath": "C:\\Users\\ozgur\\OneDrive\\Masaüstü\\projeler\\NetCoreApiProject\\NetCoreApiProject.Data\\NetCoreApiProject.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

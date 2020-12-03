@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NetCoreApiProject.Data/1.0.0": {
+        "dependencies": {
+          "NetCoreApiProject.Core": "1.0.0"
+        },
+        "runtime": {
+          "NetCoreApiProject.Data.dll": {}
+        }
+      },
+      "NetCoreApiProject.Core/1.0.0": {
+        "runtime": {
+          "NetCoreApiProject.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetCoreApiProject.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetCoreApiProject.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

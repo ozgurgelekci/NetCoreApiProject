@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Reflection.Metadata;
 using System.Reflection.PortableExecutable;
 using System.Text;
+using NetCoreApiProject.Core.Entities.Abstract;
 
-namespace NetCoreApiProject.Core.Entities
+namespace NetCoreApiProject.Core.Entities.Concrete
 {
-    public class Product
+    public class Product : IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using NetCoreApiProject.Core.Entities.Abstract;
 
-namespace NetCoreApiProject.Core.Entities
+namespace NetCoreApiProject.Core.Entities.Concrete
 {
-    public class Category
+    public class Category : IEntity
     {
         public Category()
         {

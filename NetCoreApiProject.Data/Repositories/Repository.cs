@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using NetCoreApiProject.Core.Entities.Abstract;
 using NetCoreApiProject.Core.Repositories;
+using NetCoreApiProject.Data.DbContexts;
 
 namespace NetCoreApiProject.Data.Repositories
 {
@@ -14,7 +15,7 @@ namespace NetCoreApiProject.Data.Repositories
         protected readonly DbContext _context;
         private readonly DbSet<TEntity> _dbSet;
 
-        public Repository(DbContext context)
+        public Repository(AppDbContext context)
         {
             _context = context;
             _dbSet = context.Set<TEntity>();
@@ -30,9 +31,9 @@ namespace NetCoreApiProject.Data.Repositories
             return await _dbSet.ToListAsync();
         }
 
-        public IEnumerable<TEntity> Where(Expression<Func<TEntity, bool>> predicate)
+        public async Task<IEnumerable<TEntity>> Where(Expression<Func<TEntity, bool>> predicate)
         {
-            return _dbSet.Where(predicate);
+            return await _dbSet.Where(predicate).ToListAsync();
         }
 
         public async Task<TEntity> SingleOrDefaultAsync(Expression<Func<TEntity, bool>> predicate)

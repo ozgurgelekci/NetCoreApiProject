@@ -4,9 +4,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NetCoreApiProject.Core.Repositories;
+using NetCoreApiProject.Core.Services;
 using NetCoreApiProject.Core.UnitOfWorks;
 using NetCoreApiProject.Data.DbContexts;
+using NetCoreApiProject.Data.Repositories;
 using NetCoreApiProject.Data.UnitOfWorks;
+using NetCoreApiProject.Service.Services;
 
 namespace NetCoreApiProject.API
 {
@@ -22,13 +26,18 @@ namespace NetCoreApiProject.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            services.AddScoped(typeof(IService<>), typeof(Service<>));
+            services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(Configuration["ConnectionString:SqlConStr"].ToString(),
                     o => o.MigrationsAssembly("NetCoreApiProject.Data"));
             });
-
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddControllers();
         }

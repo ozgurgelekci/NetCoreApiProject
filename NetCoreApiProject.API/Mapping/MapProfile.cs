@@ -17,6 +17,9 @@ namespace NetCoreApiProject.API.Mapping
 
             CreateMap<ProductDto, Product>();
             CreateMap<Product, ProductDto>();
+
+            CreateMap<Product, ProductWithCategoryDto>();
+            CreateMap<ProductWithCategoryDto, Product>();
         }
     }
 }

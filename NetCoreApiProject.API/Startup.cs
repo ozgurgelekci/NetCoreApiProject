@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NetCoreApiProject.API.Filters;
 using NetCoreApiProject.Core.Repositories;
 using NetCoreApiProject.Core.Services;
 using NetCoreApiProject.Core.UnitOfWorks;
@@ -29,6 +30,7 @@ namespace NetCoreApiProject.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(Startup));
+            services.AddScoped(typeof(NotFoundFilter<>));
 
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(IService<>), typeof(Service<>));

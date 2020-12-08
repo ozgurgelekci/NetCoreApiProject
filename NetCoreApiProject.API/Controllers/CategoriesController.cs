@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NetCoreApiProject.API.DTOs.Category;
+using NetCoreApiProject.API.Filters;
 using NetCoreApiProject.Core.Entities.Concrete;
 using NetCoreApiProject.Core.Services;
 
@@ -28,6 +29,7 @@ namespace NetCoreApiProject.API.Controllers
             return Ok(_mapper.Map<IEnumerable<CategoryDto>>(categories));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Category>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -35,6 +37,7 @@ namespace NetCoreApiProject.API.Controllers
             return Ok(_mapper.Map<CategoryDto>(category));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Category>))]
         [HttpGet("{id}/products")]
         public async Task<IActionResult> GetWithProductsById(int id)
         {
@@ -42,6 +45,7 @@ namespace NetCoreApiProject.API.Controllers
             return Ok(_mapper.Map<CategoryWithProductsDto>(result));
         }
 
+        [ValidationFilter]
         [HttpPost]
         public async Task<IActionResult> Save(CategoryDto categoryDto)
         {
@@ -49,6 +53,7 @@ namespace NetCoreApiProject.API.Controllers
             return Created(string.Empty, _mapper.Map<CategoryDto>(newcategory));
         }
 
+        [ValidationFilter]
         [HttpPut]
         public IActionResult Update(CategoryDto categoryDto)
         {
@@ -56,6 +61,7 @@ namespace NetCoreApiProject.API.Controllers
             return NoContent();
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Category>))]
         [HttpDelete("{id}")]
         public IActionResult Remove(int id)
         {

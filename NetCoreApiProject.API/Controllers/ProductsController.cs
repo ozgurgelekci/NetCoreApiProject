@@ -29,6 +29,7 @@ namespace NetCoreApiProject.API.Controllers
             return Ok(_mapper.Map<IEnumerable<ProductDto>>(products));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Category>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
@@ -36,6 +37,7 @@ namespace NetCoreApiProject.API.Controllers
             return Ok(_mapper.Map<ProductDto>(product));
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Category>))]
         [HttpGet("{id}/category")]
         public async Task<IActionResult> GetWithCategoryById(int id)
         {
@@ -51,6 +53,7 @@ namespace NetCoreApiProject.API.Controllers
             return Created(string.Empty, _mapper.Map<ProductDto>(newProduct));
         }
 
+        [ValidationFilter]
         [HttpPut]
         public IActionResult Update(ProductDto productDto)
         {
@@ -58,6 +61,7 @@ namespace NetCoreApiProject.API.Controllers
             return NoContent();
         }
 
+        [ServiceFilter(typeof(NotFoundFilter<Category>))]
         [HttpDelete("{id}")]
         public IActionResult Remove(int id)
         {

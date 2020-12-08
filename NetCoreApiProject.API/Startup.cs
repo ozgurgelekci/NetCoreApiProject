@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NetCoreApiProject.API.Extensions;
 using NetCoreApiProject.API.Filters;
 using NetCoreApiProject.Core.Repositories;
 using NetCoreApiProject.Core.Services;
@@ -60,6 +61,9 @@ namespace NetCoreApiProject.API
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            // Custom Exception Handler
+            app.UseCustomException();
 
             app.UseRouting();
 

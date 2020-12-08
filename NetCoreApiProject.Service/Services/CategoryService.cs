@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using NetCoreApiProject.Core.Entities.Concrete;
 using NetCoreApiProject.Core.Repositories;
 using NetCoreApiProject.Core.Services;

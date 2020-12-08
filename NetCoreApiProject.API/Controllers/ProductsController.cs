@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NetCoreApiProject.API.DTOs.Product;
+using NetCoreApiProject.API.Filters;
 using NetCoreApiProject.Core.Entities.Concrete;
 using NetCoreApiProject.Core.Services;
 
@@ -42,6 +43,7 @@ namespace NetCoreApiProject.API.Controllers
             return Ok(_mapper.Map<ProductWithCategoryDto>(product));
         }
 
+        [ValidationFilter]
         [HttpPost]
         public async Task<IActionResult> Save(ProductDto productDto)
         {

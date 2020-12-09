@@ -19,7 +19,6 @@ using NetCoreApiProject.Data.DbContexts;
 using NetCoreApiProject.Data.Repositories;
 using NetCoreApiProject.Data.UnitOfWorks;
 using NetCoreApiProject.Service.Services;
-using Swashbuckle.AspNetCore.Swagger;
 
 namespace NetCoreApiProject.API
 {

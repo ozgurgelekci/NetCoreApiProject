@@ -67,5 +67,12 @@ C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\bin\Debug\netcoreapp3.1\NetCoreApiProject.API.xml
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\obj\Debug\netcoreapp3.1\NetCoreApiProject.API.csproj.CoreCompileInputs.cache
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\obj\Debug\netcoreapp3.1\NetCoreApiProject.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\obj\Debug\netcoreapp3.1\NetCoreApiProject.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ozgur\OneDrive\Masaüstü\projeler\NetCoreApiProject\NetCoreApiProject.API\obj\Debug\netcoreapp3.1\NetCoreApiProject.API.xml

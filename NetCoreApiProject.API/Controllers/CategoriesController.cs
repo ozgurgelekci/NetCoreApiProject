@@ -22,6 +22,14 @@ namespace NetCoreApiProject.API.Controllers
             _mapper = mapper;
         }
 
+        /// <summary>
+        /// Tüm kategorileri list olarak geri döner
+        /// </summary>
+        /// <remarks>
+        /// Örnek : /api/categories
+        /// </remarks>
+        /// <returns></returns>
+        [Produces("application/json")]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
@@ -29,6 +37,13 @@ namespace NetCoreApiProject.API.Controllers
             return Ok(_mapper.Map<IEnumerable<CategoryDto>>(categories));
         }
 
+        /// <summary>
+        /// Id'si verilen kategoriyi döner.
+        /// </summary>
+        /// <param name="id">CategoryId</param>
+        /// <returns></returns>
+        /// <response code="404">Kategori veritabanında bulunamadı</response>
+        [Produces("application/json")]
         [ServiceFilter(typeof(NotFoundFilter<Category>))]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
@@ -45,6 +60,16 @@ namespace NetCoreApiProject.API.Controllers
             return Ok(_mapper.Map<CategoryWithProductsDto>(result));
         }
 
+        /// <summary>
+        /// Kategori ekler
+        /// </summary>
+        /// <remarks>
+        /// Örnek = {"Name":"Kategori Adı"}
+        /// </remarks>
+        /// <param name="categoryDto"></param>
+        /// <returns></returns>
+        [Consumes("application/json")]
+        [Produces("application/json")]
         [ValidationFilter]
         [HttpPost]
         public async Task<IActionResult> Save(CategoryDto categoryDto)

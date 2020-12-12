@@ -12,9 +12,9 @@ namespace NetCoreApiProject.Service.Services
         {
         }
 
-        public async Task<Product> GetWithCategoryByIdAsync(int productId)
+        public Task<Product> GetWithCategoryByIdAsync(int productId)
         {
-            return await _unitOfWork.Product.GetWithCategoryByIdAsync(productId);
+            return _unitOfWork.Product.GetWithCategoryByIdAsync(productId);
         }
     }
 }
